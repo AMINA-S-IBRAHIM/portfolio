@@ -70,6 +70,9 @@
 }
 
 <!-- -->
+#portfolio{
+  display:flex;
+}
 .container {
     width: 90%;
     margin: 50px auto;
@@ -92,15 +95,17 @@
   
   .card {
     height: 504px;
-      width: 350px;
+      width: 500px;
     transition: 0.3s;
   box-shadow: 0 8px 16px 0;
   border-radius:20px;
   }
   
   .card-pic {
-    text-align: center;
-    padding: 50px 10px;
+    
+    height:264px;
+      width:350px;
+      align-content: center;
     
   }
   img{
